@@ -29,6 +29,10 @@ class Owner
     @name = name
   end
   
+  def pets
+    @pets
+  end
+  
   def buy_fish(fish)
   end
     
