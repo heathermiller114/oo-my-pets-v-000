@@ -53,7 +53,6 @@ class Owner
         end
       end
     end
-    dog.mood
   end
     
   
