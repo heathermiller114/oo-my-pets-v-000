@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
   
   attr_reader :species, :name
@@ -49,6 +50,7 @@ class Owner
     @pets.collect do |species, instances|
       if species == :dog
         instances.each do |dog|
+          binding.pry
           dog.mood = "happy"
         end
       end
