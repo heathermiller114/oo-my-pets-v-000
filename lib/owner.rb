@@ -81,6 +81,8 @@ class Owner
       instances.each do |pet|
         pet.mood = "nervous"
       end
+      instances.clear
+    end
   end
     
   def list_pets
