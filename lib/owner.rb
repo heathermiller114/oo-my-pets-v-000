@@ -27,6 +27,8 @@ class Owner
   def name=(name)
     @name = name
   end
+  
+  def pets
     
   
 end
