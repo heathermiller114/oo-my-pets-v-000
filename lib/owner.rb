@@ -32,7 +32,7 @@ class Owner
     {:cats => [], :dogs => [], :fishes => []}
   end
   
-  def buy_fish
+  def buy_fish(fish)
   end
     
   
