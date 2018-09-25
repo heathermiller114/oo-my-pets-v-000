@@ -46,7 +46,7 @@ class Owner
   end
   
   def walk_dogs
-    @pets
+    @pets.collect do |species, mood|
   end
     
   
