@@ -46,7 +46,8 @@ class Owner
   end
   
   def walk_dogs
-    @pets.collect do |species, mood|
+    @pets.collect do |species, instances|
+      if species == dog
   end
     
   
